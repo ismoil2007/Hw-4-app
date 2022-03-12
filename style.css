@@ -1,0 +1,81 @@
+body{
+    background: rgba(223, 223, 223, 0.411);
+}
+
+.card__img{
+    float: left;
+    width: 250px;
+    border: 1px solid black;
+    margin-right: 30px;
+}
+.card__title{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:-2px ;
+    
+}
+.container{
+    width: 1110px;
+    margin: 0 400px;
+    
+    
+}
+
+.card{
+    width: 70%;
+    
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    background: whitesmoke;
+    height: 20px;
+    padding: 3px;
+    border: 1px solid black;
+}
+
+.cart h2{
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card__text{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -1px;
+}
+
+.price h1{
+    color: rgb(194, 0, 0);
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3px;
+}
+.price del{
+    display: flex;
+    color: gray;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    
+}
+.price{
+    display: flex;
+}
+.del{
+    display: flex;
+}
+
+.line{
+   
+   width: 70%;
+   height: 1px;
+   background: #000;
+   margin: 30px 0;
+   margin-top: -10px;
+}
